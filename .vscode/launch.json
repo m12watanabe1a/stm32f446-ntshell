@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+      {
+        "type": "cortex-debug",
+        "servertype": "openocd",
+        "request": "launch",
+        "name": "OpenOCD-Debug",
+        "executable": "./build/stm32f446_template.elf",
+        "configFiles": [
+          "interface/stlink-v2-1.cfg",
+          "board/st_nucleo_f4.cfg"
+        ],
+        "device": "STM32F446",
+        "cwd": "${workspaceRoot}",
+        "preLaunchTask": "build all",
+      }
+    ]
+  }

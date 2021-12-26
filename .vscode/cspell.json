@@ -1,0 +1,16 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "words": [
+      "HWCONTROL", // hardware control
+      "HCLK", // hardware clock
+      "HSIcalibration", // HSI calibration
+      "USART",
+      "huart",
+      "GPIO",
+      "GPIOA",
+      "GPIOB",
+      "GPIOF",
+      "AHBCLK"
+    ]
+  }
